@@ -8,6 +8,7 @@ relevanta resultat i projektrapporten.
 - [HTML-genomgång](html-genomgang.md): sidornas struktur och elementens funktion.
 - [Skärmbilder](screenshots/README.md): bilder, bildtexter och rutin för kommande steg.
 - [HTML-validering](validation/01-html-validation.json): sparade svar från W3C Nu Html Checker.
+- [Validering av gemensam sidstruktur](validation/02-shared-structure-validation.json): kontroll av fotograferings- och kontaktsidan efter strukturändringen.
 
 ## Dokumentation av varje steg
 

@@ -55,3 +55,28 @@ skickar inga meddelanden.
 ### Nästa steg
 
 Utforma webbplatsen med färger, typografi och layout enligt Figma-underlaget.
+
+## Steg 02 – Gemensam sidstruktur
+
+Datum: 2026-11-01.
+
+### Genomförande och motivering
+
+Fotograferings- och kontaktsidans huvudrubrik och introduktion placerades
+i en inledande `<section>`, enligt samma mönster som startsidan.
+Innehållet på respektive sida behölls.
+
+De gemensamma delarna följer startsidans kodstruktur: dokumentets början,
+skipplänk, header, navigation, main-element och sidfot. Sidtitel,
+metabeskrivning och `aria-current="page"` anpassas till den aktuella sidan.
+Det sidspecifika huvudinnehållet ligger inom `<main>`.
+
+### Kontroller
+
+Koden utanför huvudinnehållet jämfördes mellan alla tre sidor. Efter att
+sidtitel, metabeskrivning och aktuell sidmarkering undantagits var koden
+identisk. Varje sida hade exakt en aktuell sidmarkering.
+
+De två ändrade sidorna kontrollerades med W3C Nu Html Checker. Båda gav
+0 fel och 0 varningar. Resultaten finns i
+[valideringen för steg 02](validation/02-shared-structure-validation.json).

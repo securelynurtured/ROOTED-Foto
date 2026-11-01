@@ -1,0 +1,29 @@
+{
+  "stage": "02-shared-structure",
+  "validator": "W3C Nu Html Checker",
+  "endpoint": "https://validator.w3.org/nu/?out=json",
+  "results": [
+    {
+      "file": "fotograferingar.html",
+      "sha256": "ea4b69646410d36fba43398c4d410eca7e9dbb060122c956840039dcfdb6d2e0",
+      "checked_at": "2026-11-01T23:13:23+01:00",
+      "errors": 0,
+      "warnings": 0,
+      "response": {
+        "version": "26.11.1",
+        "messages": []
+      }
+    },
+    {
+      "file": "kontakt.html",
+      "sha256": "f2ae5a2b180cee82654f3356ff8e310a0c1ca2764769ee2ca21fc698180dee8c",
+      "checked_at": "2026-11-01T23:13:23+01:00",
+      "errors": 0,
+      "warnings": 0,
+      "response": {
+        "version": "26.11.1",
+        "messages": []
+      }
+    }
+  ]
+}

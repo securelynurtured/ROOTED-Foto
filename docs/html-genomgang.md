@@ -25,6 +25,15 @@ används på webbplatsens tre sidor för att ge en enhetlig navigation.
 | `<main>` | Innehåller det unika huvudinnehållet på respektive sida. |
 | `<footer>` | Samlar verksamhetens namn, kontaktlänk och märkningen Studentprojekt. |
 
+`<body>` omfattar allt synligt sidinnehåll, inklusive header, navigation och
+sidfot. Det som varierar mellan sidorna ligger i `<main>`. Alla tre sidor
+inleder sitt huvudinnehåll med en `<section>` för sidans huvudrubrik och
+introduktion.
+
+De gemensamma delarna har samma kodstruktur i varje HTML-fil. Sidtitel,
+metabeskrivning och placeringen av `aria-current="page"` anpassas till
+respektive sida. När en gemensam del ändras uppdateras alla tre HTML-filer.
+
 ## Rubriker, sektioner och länkar
 
 Varje sida har en huvudrubrik, `<h1>`. Underrubrikerna använder `<h2>` och,
