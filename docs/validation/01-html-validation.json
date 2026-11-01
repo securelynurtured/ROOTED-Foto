@@ -1,0 +1,40 @@
+{
+  "stage": "01-html",
+  "validator": "W3C Nu Html Checker",
+  "endpoint": "https://validator.w3.org/nu/?out=json",
+  "results": [
+    {
+      "file": "index.html",
+      "sha256": "75c9876f6f2d8284b29d97e94667be7d0064fc634147b178a7798f818b39ea64",
+      "checked_at": "2026-11-01T14:05:33+01:00",
+      "errors": 0,
+      "warnings": 0,
+      "response": {
+        "version": "26.11.1",
+        "messages": []
+      }
+    },
+    {
+      "file": "fotograferingar.html",
+      "sha256": "7e6b3b07a8ae1d6caddde1a66fffa2dae4ac8d76f58207700a6fc158c6cc5a43",
+      "checked_at": "2026-11-01T14:05:34+01:00",
+      "errors": 0,
+      "warnings": 0,
+      "response": {
+        "version": "26.11.1",
+        "messages": []
+      }
+    },
+    {
+      "file": "kontakt.html",
+      "sha256": "d5261256e40390b50f8d46887e71fd9b5445ff6958e1af46b11c9e84dfc95526",
+      "checked_at": "2026-11-01T14:05:34+01:00",
+      "errors": 0,
+      "warnings": 0,
+      "response": {
+        "version": "26.11.1",
+        "messages": []
+      }
+    }
+  ]
+}
