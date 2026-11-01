@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kontakta ROOTED Foto i Umeå och berätta om dina önskemål för porträtt, familjebilder eller företagsfoto.">
+    <title>Kontakt – ROOTED Foto</title>
+  </head>
+  <body>
+    <a href="#huvudinnehall">Hoppa till innehållet</a>
+
+    <header>
+      <a href="index.html">ROOTED Foto</a>
+      <nav aria-label="Huvudmeny">
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="fotograferingar.html">Fotograferingar</a></li>
+          <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="huvudinnehall">
+      <h1>Kontakt</h1>
+      <p>Har du en idé eller en fråga om fotografering? Berätta vilken typ av bilder du önskar och vad som är viktigt för dig.</p>
+
+      <section>
+        <h2>Här finns ROOTED Foto</h2>
+        <address>
+          ROOTED Foto<br>
+          Glädjens Gränd 2<br>
+          903 63 Umeå<br>
+          Telefon: <a href="tel:+46722572298">072-257 22 98</a><br>
+          E-post: <a href="mailto:rootedfoto@gmail.com">rootedfoto@gmail.com</a>
+        </address>
+      </section>
+
+      <section>
+        <h2>Skicka en förfrågan</h2>
+        <p>Fält markerade med * behöver fyllas i.</p>
+        <p id="formularinformation">Formuläret är en del av ett studentprojekt och skickar inga meddelanden.</p>
+
+        <form id="kontaktformular" action="kontakt.html" method="post" aria-describedby="formularinformation">
+          <div>
+            <label for="namn">Namn *</label>
+            <input type="text" id="namn" name="namn" autocomplete="name" maxlength="100" required>
+          </div>
+          <div>
+            <label for="epost">E-post *</label>
+            <input type="email" id="epost" name="epost" autocomplete="email" maxlength="254" required>
+          </div>
+          <div>
+            <label for="fotografering">Typ av fotografering *</label>
+            <select id="fotografering" name="fotografering" required>
+              <option value="">Välj fotografering</option>
+              <option value="portratt">Porträtt</option>
+              <option value="familj">Familj</option>
+              <option value="foretag">Företag</option>
+            </select>
+          </div>
+          <div>
+            <label for="meddelande">Meddelande *</label>
+            <textarea id="meddelande" name="meddelande" rows="6" cols="40" minlength="10" maxlength="2000" required></textarea>
+          </div>
+          <button type="submit" disabled>Skicka förfrågan</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>ROOTED Foto · Umeå</p>
+      <p><a href="kontakt.html">Kontakt</a> · Studentprojekt</p>
+    </footer>
+  </body>
+</html>
